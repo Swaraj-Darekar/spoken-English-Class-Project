@@ -38,7 +38,8 @@ html {
     z-index: 10000;
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 80px;
+    width: 100vw;
     background-color: #fff;
 
     .logo {
@@ -571,7 +572,7 @@ html {
     .main-banner {
     
         width: 90%; /* Adjusted width for smaller devices */
-        margin: 0 auto; /* Center the banner horizontally */
+        margin: 0; /* Center the banner horizontally */
 
     }
 
@@ -589,6 +590,7 @@ html {
 
     .contact-container{
         flex-direction: column;
+        margin-left: 0;
     }
 
     .contact-container .contact-info{
@@ -749,8 +751,3 @@ html {
 }
 
 
-@media (max-width: 480px) {
-    .column {
-        width: 100%; /* When screen width is less than 480px, each column occupies 100% of the container's width */
-    }
-}
